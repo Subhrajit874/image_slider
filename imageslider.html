@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+    <link rel="stylesheet" href="imageslider.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class = "slide">
+           <img src="images1/Manipur.jpg" alt="">
+           <div class="caption"> MANIPUR </div>
+        </div>
+        <div class = "slide">
+            <img src="images1/Tripura.jpg" alt="">
+            <div class="caption"> TRIPURA </div>
+         </div>
+         <div class = "slide">
+            <img src="images1/Arunachal.jpg" alt="">
+            <div class="caption"> ARUNACHAL </div>
+         </div>
+         <div class = "slide">
+            <img src="images1/Nagaland.jpg" alt="">
+            <div class="caption"> NAGALAND </div>
+         </div>
+         <span class="arrow prev " onclick="controller(-1)">&#10094</span>
+         <span class="arrow next" onclick="controller(1)">&#10095</span>
+    </div> 
+    <script src="imageslider.js"></script>
+</body>
+</html>
